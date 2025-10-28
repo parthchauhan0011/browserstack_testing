@@ -75,18 +75,21 @@ Set the environment variable to point to this file:
 Bash
 
 # On macOS/Linux
+```bash
 export GOOGLE_APPLICATION_CREDENTIALS="/path/to/your/gcp-key.json"
+```
 
 
 1. Run Locally
 This runs the full scrape-and-translate process on your local machine using Chrome.
 
-Bash
-
+```bash
 python sele.py --local
+```
+
 2. Run on BrowserStack (Parallel)
 This runs the scraping process across 5 parallel browsers on BrowserStack, then collects, translates, and analyzes the results.
 
-Bash
-
+```bash
 python sele.py --bs
+```
