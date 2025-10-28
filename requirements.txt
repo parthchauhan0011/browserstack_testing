@@ -1,0 +1,5 @@
+selenium>=4.8.0
+requests
+google-cloud-translate==3.11.0
+beautifulsoup4
+pytest
